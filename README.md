@@ -4,7 +4,7 @@ See also on Printables: https://printables.com/model/1088507-kids-audiobook-play
 
 See images in "images" folder, and 3D geometry for print or modification in "3Dfiles""
 
-![finished.jpg](images\finished.jpg)
+![finished.jpg](images/finished.jpg)
 
 **Uses adafruit feather components:**
 
@@ -17,8 +17,6 @@ Joywing: https://www.adafruit.com/product/3632
 MP3: https://www.adafruit.com/product/3357
 
 and then also some simple slide switches and m2 heatset nut
-
-
 
 **Software intent, file prep and SD Card folder structure**
 
@@ -36,14 +34,8 @@ The file format, naming, and folder structure is strict:
    2. cover images: 0000/0000/cover.bmp
    3. scratch file for resume from last played: lastPlayed.txt
 
-
-
 **Compile and flash**
 
 I used VSCode with the PlatformIO IDE extension.  Just open the folder in VSCode (or the kidsPlayer_Platformio.code-workspace) and PlatformIO is able to pull correct library dependancies and build for the ESP32 hardware (see platformio.ini file for definition) 
 
 These boards should take a flash without any special button dance, but sometimes need the reset pushed when the "boot" button is held to get it into the bootloader.  See the note about bootloader [here](https://learn.adafruit.com/adafruit-esp32-s3-tft-feather/using-with-arduino-ide).  Unfortunately, the boot button is not easily available when it's all assembled (the hole in front is for the reset button) but it *is* possible to reach it with a bent paperclip slipped between the screen and the housing.  Do be careful not to crack the screen though...
-
-
-
-
