@@ -9,7 +9,6 @@ See images in "images" folder, and 3D geometry for print or modification in "3Df
 **Uses adafruit feather components:**
 
 ESP32: https://www.adafruit.com/product/5483
-
 (would have maybe been better to choose a different feather for packaging! anyways, the 3D shape is made for this and it works...)
 
 Joywing: https://www.adafruit.com/product/3632
@@ -17,6 +16,10 @@ Joywing: https://www.adafruit.com/product/3632
 MP3: https://www.adafruit.com/product/3357
 
 and then also some simple slide switches and m2 heatset nut
+
+Oh! and an 18650 slot and 18650 cell...
+
+
 
 **Software intent, file prep and SD Card folder structure**
 
@@ -33,6 +36,8 @@ The file format, naming, and folder structure is strict:
    1. audio files: 0000/0000/000.mp3 (001 to max track, in order no gaps)
    2. cover images: 0000/0000/cover.bmp
    3. scratch file for resume from last played: lastPlayed.txt
+
+
 
 **Compile and flash**
 
