@@ -29,7 +29,7 @@ The file format, naming, and folder structure is strict:
 
 1. you need to preprocess the file names and prep the audio 
    1. Audio: 128kbps mp3 nonvariable
-   2. Art: 16bit .bmp 16bit, correct small size for screen is max 240x135
+   2. Art: 24bit .bmp 16bit, correct small size for screen is max 240x135
 2. Folder structure is Series/book/chapter.mp3 (or Artist/album/track.mp3)
    1. Names need to be by number only, see below and in ExampleFolderStructure folder
 3. Folder and File names: 
@@ -37,6 +37,7 @@ The file format, naming, and folder structure is strict:
    2. cover images: 0000/0000/cover.bmp
    3. scratch file for resume from last played: lastPlayed.txt
 
+I use windows "Bulk Rename Utility" for the file naming, Paint for the art, and windows media player for the mp3 ripping...
 
 
 **Compile and flash**
